@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import io from 'socket.io-client'
+import styles from '../styles/Home.module.css'
 let socket;
 
 const Home = () => {
@@ -26,11 +27,15 @@ const Home = () => {
   }
 
   return (
+    <div className={styles.container}>
+    <p className={styles.text}>What you write here will be seen by other users</p>
     <input
+    className={styles.input}
       placeholder="Type something"
       value={input}
       onChange={onChangeHandler}
     />
+    </div>
   )
 }
 
