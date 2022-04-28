@@ -1,5 +1,5 @@
 # Socket.io & Next api
-Simple exercice with Next ans Socket.io. I follow a blog tutorial.
+Simple exercice with Next js and socket.io. Write a message, the other users will see it in realtime and they will be able to change it aswell.
 </br>
 
 ### Steps in dev mode:
